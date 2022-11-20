@@ -1,18 +1,32 @@
-Write the following code in your editor below:
+When a subclass inherits from a superclass, it also inherits its methods; however, it can also override the superclass methods (as well as declare and implement new ones). Consider the following Sports class:
 
-A class named Arithmetic with a method named add that takes  integers as parameters and returns an integer denoting their sum.
-A class named Adder that inherits from a superclass named Arithmetic.
-Your classes should not be be .
+class Sports{
+    String getName(){
+        return "Generic Sports";
+    }
+    void getNumberOfTeamMembers(){
+        System.out.println( "Each team has n players in " + getName() );
+    }
+}
+Next, we create a Soccer class that inherits from the Sports class. We can override the getName method and return a different, subclass-specific string:
 
-Input Format
+class Soccer extends Sports{
+    @Override
+    String getName(){
+        return "Soccer Class";
+    }
+}
+Note: When overriding a method, you should precede it with the @Override annotation. 
+The parameter(s) and return type of an overridden method must be exactly the same as those of the method inherited from the supertype.
 
-You are not responsible for reading any input from stdin; a locked code stub will test your submission by calling the add method on an Adder object and passing it  integer parameters.
+Task
+Complete the code in your editor by writing an overridden getNumberOfTeamMembers method that prints the same statement as the superclass' getNumberOfTeamMembers method, 
+except that it replaces n with 11 (the number of players on a Soccer team).
 
 Output Format
 
-You are not responsible for printing anything to stdout. Your add method must return the sum of its parameters.
-
-Sample Output
-
-My superclass is: Arithmetic
-42 13 20
+When executed, your completed code should print the following:
+Generic Sports
+Each team has n players in Generic Sports
+Soccer Class
+Each team has 11 players in Soccer Class
