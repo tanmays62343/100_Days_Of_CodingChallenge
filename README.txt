@@ -1,24 +1,17 @@
-In this problem, you have to add and multiply huge numbers! These numbers are so big that you can't contain them in any ordinary data types like a long integer.
+Sample Input :
 
-Use the power of Java's BigInteger class and solve this problem.
+He is a very very good boy, isn't he?
 
-Input Format
+Sample Output :
 
-There will be two lines containing two numbers, a and b.
-
-Constraints
-
- and  are non-negative integers and can have maximum 200 digits.
-
-Output Format
-
-Output two lines. The first line should contain a+b, and the second line should contain axb. Don't print any leading zeros.
-
-Sample Input
-
-1234
-20
-Sample Output
-
-1254
-24680
+10
+He
+is
+a
+very
+very
+good
+boy
+isn
+t
+he
