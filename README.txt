@@ -1,19 +1,24 @@
-Heap sort is a comparison-based sorting technique based on Binary Heap data structure. 
-It is similar to the selection sort where we first find the minimum element and place the minimum element at the beginning. 
-Repeat the same process for the remaining elements.
+Bucket sort is a sorting algorithm that separate the elements into multiple groups said to be buckets. 
+Elements in bucket sort are first uniformly divided into groups called buckets, and then they are sorted by any other sorting algorithm. 
+After that, elements are gathered in a sorted manner.
 
-Heap sort is an in-place algorithm. 
+The basic procedure of performing the bucket sort is given as follows -
 
-Its typical implementation is not stable, but can be made stable 
-Typically 2-3 times slower than well-implemented QuickSort.  The reason for slowness is a lack of locality of reference.
+First, partition the range into a fixed number of buckets.
+Then, toss every element into its appropriate bucket.
+After that, sort each bucket individually by applying a sorting algorithm.
+And at last, concatenate all the sorted buckets.
 
-Advantages of heapsort:
+
+The advantages of bucket sort are -
+
+Bucket sort reduces the no. of comparisons.
+It is asymptotically fast because of the uniform distribution of elements.
 
 
-Efficiency –  The time required to perform Heap sort increases logarithmically while other algorithms may grow exponentially slower as the number of items to sort increases. 
-This sorting algorithm is very efficient.
+The limitations of bucket sort are -
 
-Memory Usage – Memory usage is minimal because apart from what is necessary to hold the initial list of items to be sorted, 
-it needs no additional memory space to work
-
-Simplicity –  It is simpler to understand than other equally efficient sorting algorithms because it does not use advanced computer science concepts such as recursion
+It may or may not be a stable sorting algorithm.
+It is not useful if we have a large array because it increases the cost.
+It is not an in-place sorting algorithm, because some extra space is required to sort the buckets.
+The best and average-case complexity of bucket sort is O(n + k), and the worst-case complexity of bucket sort is O(n2), where n is the number of items.
