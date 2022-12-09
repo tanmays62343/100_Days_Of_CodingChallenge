@@ -1,6 +1,6 @@
 package com.TrX;
 
-class Printer<T>
+class Day_50_GenricClass_HackerRank<T>
 {
     //Write your code here
     void printArray(T [] A){
