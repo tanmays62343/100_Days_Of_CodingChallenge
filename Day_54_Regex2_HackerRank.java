@@ -24,7 +24,7 @@ public class Day_54_Regex2_HackerRank {
                 input = input.replaceAll(m.group(),m.group(1));
             }
 
-            // Prints the modified sentence.
+            // Prints the modified sentence
             System.out.println(input);
         }
 
