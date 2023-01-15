@@ -3,7 +3,7 @@ package com.TrX;
 import java.util.*;
 import java.util.regex.*;
 
-public class Day_51_PatternSyntaxChecker_HackerRank {
+public class Day_51_PatternSyntaxChecker_HackerRank{
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
