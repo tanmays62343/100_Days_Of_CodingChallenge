@@ -13,7 +13,7 @@ public class BubbleSort {
         System.out.println("After Sorting");
         System.out.println(Arrays.toString(arr1));
     }
-    public static void bubbleSort(int [] arr){
+    public static void bubbleSort(int [] arr) {
         int temp = 0;
         for(int i=0; i < arr.length; i++){
             for(int j=1; j < (arr.length-i); j++){
