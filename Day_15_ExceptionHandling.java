@@ -15,7 +15,7 @@ public class Day_15_ExceptionHandling {
             c=a/b;
             System.out.println("The result is : "+c);
         }
-        catch(Exception e){
+        catch(Exception e) {
             System.out.println("Invalid Input :"+e);
         }
         System.out.println("End of the program");
