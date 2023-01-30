@@ -6,7 +6,7 @@ public class Day_11_SubStrings {
     public static String getSmallestAndLargest(String s, int k) {
         String smallest = "";
         String largest = "";
-        for (int i = 0; i < k; i++){
+        for (int i = 0; i < k; i++) {
             smallest += s.charAt(i);
         }
         largest = smallest;
