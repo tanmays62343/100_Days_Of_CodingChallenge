@@ -3,7 +3,9 @@ package com.TrX;
 import java.util.Scanner;
 
 public class Day_36_HeapSort {
+    
     public static void main(String[] args) {
+        
         Scanner s=new Scanner(System.in);
         System.out.println("enter the size of array");
         int size=s.nextInt();
