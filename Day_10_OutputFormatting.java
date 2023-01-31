@@ -2,7 +2,7 @@ package com.TrX;
 
 import java.util.Scanner;
 
-public class Day_10_OutputFormatting {
+public class Day_10_OutputFormatting{
         public static void main(String[] args) {
             Scanner sc=new Scanner(System.in);
             System.out.println("================================");
