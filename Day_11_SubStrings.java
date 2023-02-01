@@ -2,7 +2,7 @@ package com.TrX;
 
 import java.util.Scanner;
 
-public class Day_11_SubStrings {
+public class Day_11_SubStrings{
     public static String getSmallestAndLargest(String s, int k) {
         String smallest = "";
         String largest = "";
