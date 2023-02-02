@@ -2,7 +2,7 @@ package com.TrX;
 
 public class Day_14_MergeSortedArray {
 
-    public static void merge(int[] nums1, int m, int[] nums2, int n) {
+    public static void merge(int[] nums1, int m, int[] nums2, int n){
         if (nums2 == null || nums2.length <= 0) {
             return;
         }
